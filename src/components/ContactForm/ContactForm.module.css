@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 0px 0px 8px 0px #07366b47;
+  }
+  
+  input {
+    color: #0e3c63;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    box-shadow: inset 0px 0px 8px 0px #33333347;
+    
+  }
+  
+  form > button {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(9, 47, 73, 0.8);
+    margin-top: 30px;
+    padding: 12px;
+    cursor: pointer;
+    background-color: rgba(17, 51, 124, 0.541);
+    border-radius: 30px;
+    transition-duration: 400ms;
+  }
+  
+  form > button:hover {
+    transform: scale(1.1);
+    background-color: rgba(202, 211, 218, 0.2);
+  }
