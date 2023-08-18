@@ -1,0 +1,28 @@
+.list {
+    max-width: 580px;
+    border-radius: 4px;
+    box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
+    background-color: #d8e0ff;
+    padding: 20px;
+}
+.general {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(33, 33, 34);
+}
+
+.positive {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(24, 63, 75);
+  }
+  .positive > span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
